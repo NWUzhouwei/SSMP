@@ -33,7 +33,7 @@ Our prepared shapenet dataset is available [here](https://drive.google.com/file/
 ### Set ShapeNet datasets
 You should modify the dataset path in the config.py file.
 ```
-DATASETS.PROTOTYPE_PATH = 'path/to/shapenet/%s/%s/rendering/%02d.png'
+DATASETS.SHAPENET.RENDERING_PATH = 'path/to/shapenet/%s/%s/rendering/%02d.png'
 DATASETS.SHAPENET.POINT_PATH=  'path/to/shapenet_point/%s/%s'+'.npy''
 ```
 
@@ -61,8 +61,8 @@ python runner.py --test --weights=xxx.pth
 ### Set Pix3d datasets
 You should modify the dataset path in the config.py file.
 ```
-DATASETS.PROTOTYPE_PATH = 'path/to/shapenet/%s/%s/rendering/%02d.png'
-DATASETS.SHAPENET.POINT_PATH=  'path/to/shapenet_point/%s/%s'+'.npy''
+DATASETS.PIX3D.RENDERING_PATH  = 'path/to/pix3d/img/%s/%s.%s'
+DATASETS.PIX3D.POINT_PATH =  'path/to/pix3d/model/%s/%s/%s'
 ```
 
 ### train stage1
