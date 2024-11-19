@@ -23,6 +23,9 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 ```
 #### Overall Network architecture:
 The network architecture of SSMP is shown below:
+<p float="left">
+    <img src="img/model.png"/>
+</p>
 
 
 ## Datasets
@@ -55,6 +58,14 @@ python runner.py --test --weights=xxx.pth
 |--------------|----------|-------|---------|-------|-------|------|---------|-------|------|-------|-------|--------|-----|
 | This repo     | 3.08     | 5.30  |  7.67    |  6.40  | 6.37  | 7.29 | 9.07    | 2.90  | 5.83 | 6.85  | 4.83  | 4.96   | 5.91|
 
+### Visualization:
+#### Usage:
+.obj  file can be loaded into [MeshLab](https://www.meshlab.net) for visualization. 
+#### Results:
+The visualization result:
+<p float="left">
+    <img src="img/shapenet.png"/>
+</p>
 
 ## Train Shapenet Datasets
 
@@ -83,4 +94,11 @@ python runner.py --test --weights=xxx.pth --datatype="Pix3D"
 |--------------|----------|-------|---------|-------|-------|------|---------|-------|---|
 | This repo     | 6.73     | 6.48  |  7.11    |  13.44  | 4.60  | 8.07 | 11.66    |  3.42  | 6.53 |
 
-
+### Visualization:
+#### Usage:
+.obj  file can be loaded into [MeshLab](https://www.meshlab.net) for visualization. 
+#### Results:
+The visualization result:
+<p float="left">
+    <img src="img/pix3d.png"/>
+</p>
