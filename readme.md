@@ -4,7 +4,7 @@
 
 
 ## Requirements
-The code has been tested on Ubantu20.04 , Python 3.7.9, PyTorch 1.11.0, CUDA 11.3
+The code has been tested on NVIDIA GeForce RTX3090 GPU with Ubantu20.04 , Python 3.7.9, PyTorch 1.11.0, CUDA 11.3
 
 ```
 pip install -r requirements.txt
