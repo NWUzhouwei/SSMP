@@ -25,7 +25,7 @@ The network architecture of SSMP is shown below:
     <img src="img/model.png"/>
 </p>
 
-##Train time
+## Train time
 the training time for the warm up stage is 40 seconds, and the training time for the teacher guidance stage is 40 minutes
 
 ## Train log
