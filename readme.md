@@ -1,8 +1,6 @@
 # SSMP
 
 
-
-
 ## Requirements
 The code has been tested on NVIDIA GeForce RTX3090 GPU with Ubantu20.04 , Python 3.7.9, PyTorch 1.11.0, CUDA 11.3
 
@@ -27,6 +25,11 @@ The network architecture of SSMP is shown below:
     <img src="img/model.png"/>
 </p>
 
+##Train time
+the training time for the warm up stage is 40 seconds, and the training time for the teacher guidance stage is 40 minutes
+
+## Train log
+We have provided training logs to validate the effectiveness of the model. log is [here](https://drive.google.com/file/d/165rSEbKtlWyyxyxvE_S_7ZVTO8ArUYxc/view?usp=drive_link)
 
 ## Datasets
 Our prepared shapenet dataset is available [here](https://drive.google.com/file/d/1I0phYe60FHLj3rQcJGl0BN5RLPVCqSh5/view?usp=sharing) and pix3d dataset is available [here](https://drive.google.com/file/d/1O1XTTTX1LKj0eO1kT6HS_A0YAKbv8AOw/view?usp=drive_link)
