@@ -116,14 +116,12 @@ class ShapeNetDataLoader:
             # Get file path of volumes
             point_file_path = self.point_path_template % (taxonomy_folder_name, sample_name)
             if not os.path.exists(point_file_path):
-                logging.warn('Ignore sample %s/%s since point file not exists.' % (taxonomy_folder_name, sample_name))
                 continue
 
             # Get file list of rendering images
             img_file_path = self.rendering_image_path_template % (taxonomy_folder_name, sample_name, 0)
             img_folder = os.path.dirname(img_file_path)
             if not os.path.exists(img_folder):
-                logging.warn('Ignore sample %s/%s since image file not exists.' % (taxonomy_folder_name, sample_name))
                 continue
             total_views = len(os.listdir(img_folder))
             rendering_image_indexes = range(total_views)
@@ -135,7 +133,6 @@ class ShapeNetDataLoader:
                 rendering_images_file_path.append(img_file_path)
 
             if len(rendering_images_file_path) == 0:
-                logging.warn('Ignore sample %s/%s since image files not exists.' % (taxonomy_folder_name, sample_name))
                 continue
 
             # Append to the list of rendering images
@@ -247,7 +244,7 @@ class Pix3dDataLoader:
             rendering_image_file_path = self.rendering_image_path_template % (taxonomy_name, sample_name,
                                                                               img_file_suffix[1:])
             if not os.path.exists(rendering_image_file_path):
-                logging.warn('Ignore sample %s/%s since volume file not exists.' % (taxonomy_name, sample_name))
+
                 continue
             # Get the bounding box of the image
             img_width, img_height = annotations['img_size']
@@ -264,7 +261,7 @@ class Pix3dDataLoader:
             # Get file path of volumes
             point_file_path = self.point_path_template % (taxonomy_name, model_name, last)
             if not os.path.exists(point_file_path):
-                logging.warn('Ignore sample %s/%s since volume file not exists.' % (taxonomy_name, sample_name))
+
                 continue
 
             # Append to the list of rendering images
