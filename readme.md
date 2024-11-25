@@ -35,7 +35,7 @@ We have provided training logs to validate the effectiveness of the model. log i
 Our prepared shapenet dataset is available [here](https://drive.google.com/file/d/1I0phYe60FHLj3rQcJGl0BN5RLPVCqSh5/view?usp=sharing) and pix3d dataset is available [here](https://drive.google.com/file/d/1O1XTTTX1LKj0eO1kT6HS_A0YAKbv8AOw/view?usp=drive_link)
 
 ## Pretrained Models
-The pretrained models on ShapeNet are available [here](https://drive.google.com/file/d/1MZC-eUi3POu1XFFI2yTzBD_AeDVfg7q3/view?usp=sharing) and the pretrained models on Pix3D are available [here](https://drive.google.com/file/d/1NQpxv6VswQfgEr1NZ1wi5dLW40F41KR8/view?usp=sharing) 
+The pretrained models on Pix3D are available [here](https://drive.google.com/file/d/1xZ1t9B3Svf8E0eYF2YtoUUFiLorDxoPV/view?usp=drive_link) 
 
 ## Train Shapenet Datasets
 
