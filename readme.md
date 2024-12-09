@@ -9,10 +9,6 @@ pip install -r requirements.txt
 ```
 
 ```
-# Chamfer Distance & emd
-cd ./utils/chamfer_dist
-python setup.py install --user
-cd ./utils/emd
 python setup.py install --user
 # PointNet++
 pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2_ops_lib"
