@@ -1,5 +1,5 @@
 # 🌟 各位同学顺手点个右上角的 Star 支持下呀～ | Hey folks, please star this repo (top-right corner) if you find it useful!  
-毕竟用了代码，点个星就是对开发者最简单的鼓励啦，别光下载不点亮呀～ | After all, a star is the easiest way to support the developer if you're using the code – don't just download and leave it unstarred!  
+# 毕竟用了代码，点个星就是对开发者最简单的鼓励啦，别光下载不点亮呀～ | After all, a star is the easiest way to support the developer if you're using the code – don't just download and leave it unstarred!  
 
 # SSMP
 
